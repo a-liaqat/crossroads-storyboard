@@ -1,0 +1,20 @@
+/*@font-face {
+    font-family: 'Augusta';
+    src: url('fonts/Augusta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old';
+    src: url('fonts/bayeux.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

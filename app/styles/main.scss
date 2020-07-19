@@ -1,0 +1,53 @@
+//$fa-font-path: "../lib/font-awesome/fonts/";
+// bower:scss
+@import "font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "common.scss";
+@import "app.scss";
+
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+text{
+	white-space: pre;
+}
+
+.gh-forkme {
+	width:100px;
+	height:100px;
+	//background:#151513;
+
+	position: absolute; top: 0; border: 0; right: 0;
+
+	.gh-icon {
+		transform-origin: 10px 28px;
+		transform:rotate(45deg);
+	}
+}
+
+*:focus {
+    outline: none;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.component-sized{
+	height:$mdComponent;
+	width:$mdComponent;
+}
+
+.cfp-hotkeys-keys {
+	padding: 2px;
+}
+
+.cfp-hotkeys-key {
+	padding: 3px 9px;
+}
