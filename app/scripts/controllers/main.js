@@ -40,12 +40,12 @@ angular.module('htckApp').controller('MainCtrl', function ($scope, $timeout, $lo
         ie.ft = ft;
         $scope.setCurrent(ie);
 
-        // set default values
+        // set default values for initial image when dragged on canvas
         ft.attrs.y=constants.ELEMENT_DEFAULT_HEIGHT;
-        hElement.setHeight($scope.current, ft.attrs.y);
+        hElement.setHeight($scope.current, ft.attrs.y*2);
 
         ft.attrs.x=constants.ELEMENT_DEFAULT_WIDTH;
-        hElement.setWidth($scope.current, ft.attrs.x);
+        hElement.setWidth($scope.current, ft.attrs.x*2);
 
         ft.attrs.rotate=constants.ELEMENT_DEFAULT_ROTATION;
         hElement.setRotation($scope.current, ft.attrs.rotate);
@@ -115,7 +115,7 @@ angular.module('htckApp').controller('MainCtrl', function ($scope, $timeout, $lo
           return;
         }
         $log.debug(size);
-  			var ie = $scope.paper.image(src, x, y, size.w, size.h);  // TODO
+  			var ie = $scope.paper.image(src, x/2, y/2, size.w/2, size.h/2);  // TODO
   			return addElement(ie);
   		}
 
