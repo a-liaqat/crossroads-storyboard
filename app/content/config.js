@@ -41,6 +41,7 @@ var constants = {
         "content//images/people/p7.png",
         "content//images/people/littleGirl_3.png",
         "content//images/people/little_girl.png",
+        "content//images/people/little_girl_4.png",
         "content//images/people/p8.png",
         "content//images/people/guy_3.png",
         "content//images/people/guy.png",
@@ -67,6 +68,7 @@ var constants = {
         "content//images/travel/pakistan-flag.png",
         "content//images/travel/india-flag.png",
         "content//images/travel/welcomeToCanada.png",
+        "content//images/travel/horseCart.png",
         "content//images/travel/plane.png",
         "content//images/travel/car.png",
         "content//images/travel/motorcycle.png",
@@ -75,8 +77,10 @@ var constants = {
         "content//images/travel/scooter.png",
         "content//images/travel/taxi.png",
         "content//images/travel/policeCar.png",
+        "content//images/travel/ambulance.png",
         "content//images/travel/truck.png",
-        "content//images/travel/rickshaw.png"
+        "content//images/travel/rickshaw.png",
+        "content//images/travel/bike.png"
       ]
     },
    
@@ -96,6 +100,7 @@ var constants = {
         "content//images/food/samosa.png",
         "content//images/food/tandooriChicken.png",
         "content//images/food/mapleSyrup.png",
+        "content//images/food/pancakes.png",
         "content//images/food/rollingPin.png",
         "content//images/food/saucepan.png",
       ]
@@ -107,11 +112,18 @@ var constants = {
         "content//images/religion/beads.png",
         "content//images/religion/mat.png",
         "content//images/religion/mosque.png",
+        "content//images/religion/turban.png",
+        "content//images/religion/armistrar.png",
+        "content//images/religion/kanga.png",
+        "content//images/religion/kachera.png",
+        "content//images/religion/kara.png",
+        "content//images/religion/kirpan.png",
+        "content//images/religion/symbol.png",
       ]
     },
 
     {
-      "title": "Celebrate",
+      "title": "Fun",
       "images": [
         "content//images/celebrate//couple_1.png",
         "content//images/celebrate//couple_2.png",
@@ -124,6 +136,13 @@ var constants = {
         "content//images/celebrate//guyStandingDrum.png",
         "content//images/celebrate//balloons.png",
         "content//images/celebrate//cake.png",
+        "content//images/celebrate//soccer.png",
+        "content//images/celebrate//cricket.png",
+        "content//images/celebrate//puck.png",
+        "content//images/celebrate//stick.png",
+        "content//images/celebrate//basketball.png",
+        "content//images/celebrate//volleyball.png",
+        "content//images/celebrate//skate.png",
       ]
     },
     
@@ -143,6 +162,8 @@ var constants = {
         "content//images/animals/donkey.png",
         "content//images/animals/squirrel.png",
         "content//images/animals/tiger.png",
+        "content//images/animals/camel.png",
+        "content//images/animals/raccoon.png",
       ]
     },
     {
@@ -151,9 +172,12 @@ var constants = {
         "content//images/backdrops/village.png",
         "content//images/backdrops/city.jpeg",
         "content//images/backdrops/lahore.png",
+        "content//images/backdrops/taj_2.png",
         "content//images/backdrops/canada_landscape.png",
         "content//images/backdrops/mountain.png",
         "content//images/backdrops/cityscape.png",
+        "content//images/backdrops/treeRed.png",
+        "content//images/backdrops/treeGreen.png",
         "content//images/backdrops/bookshelf.png",
         "content//images/backdrops/orangecouch.png",
         "content//images/backdrops/chair.png",
@@ -297,11 +321,7 @@ var constants = {
     "content//images/backgrounds/background_5.jpg"
   ],
   "fonts":[
-    {
-      font:"Old",
-      size: 25,
-      uppercase: true
-    },
+    
     // {
     //   font:"Augusta",
     //   size: 35,
@@ -311,6 +331,11 @@ var constants = {
       font:"Regular",
       size: 35,
       uppercase: false
+    },
+    {
+      font:"Old",
+      size: 25,
+      uppercase: true
     }
   ],
   "brushes":[
